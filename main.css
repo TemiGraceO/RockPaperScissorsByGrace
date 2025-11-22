@@ -162,4 +162,20 @@ footer {
         width: 100%;
         max-width: 300px;
     }
+    @media (max-width: 300px) {
+    h1 { font-size: 1.5rem; }
+    .choices {
+        gap: 10px;
+    }
+    .choice {
+        width: 120px;
+    }
+    .side {
+        width: 100%;
+        max-width: 320px;
+    }
+    .score {
+        width: 100%;
+        max-width: 300px;
+    }
 
