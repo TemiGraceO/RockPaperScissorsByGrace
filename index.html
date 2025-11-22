@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Rock • Paper • Scissors</h1><br>
+
+        <div class="images">
+            <img src="images/fist.png" alt="rock" class="fist">
+            <img src="images/paper.png" alt="paper" class="paper">
+            <img src="images/scissors.png" alt="scissors" class="scissors">
+        </div>
+
+        <a href="main.html" class="btn">START GAME</a><br><br><br><br><br>
+
+        <!-- Popup Note -->
+        <div id="sideNote" class="popup">
+            <div class="popup-content">
+                <h2>Game Rules</h2>
+                <p>Rock vs Paper → <strong style="color: blue;">Paper Wins</strong></p>
+                <p>Rock vs Scissors → <strong style="color: blue;">Rock Wins</strong></p>
+                <p>Paper vs Scissors → <strong style="color: blue;">Scissors Wins</strong></p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function openNote() {
+            document.getElementById("sideNote").classList.add("show");
+        }
+        function closeNote() {
+            document.getElementById("sideNote").classList.remove("show");
+        }
+    </script>
+
+</body>
+</html>
