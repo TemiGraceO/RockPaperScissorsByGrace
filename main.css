@@ -132,6 +132,7 @@ footer {
     }
     .side {
         width: 180px;
+        margin-top:-5%;
     }
     .quit button{
         font-size: 20px;
