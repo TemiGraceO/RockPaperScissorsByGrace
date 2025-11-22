@@ -149,7 +149,7 @@ footer {
 @media (max-width: 600px) {
     h1 { font-size: 1.5rem; }
     .choices {
-        gap: 20px;
+        gap: 10px;
     }
     .choice {
         width: 120px;
@@ -162,4 +162,4 @@ footer {
         width: 100%;
         max-width: 300px;
     }
-}
+
