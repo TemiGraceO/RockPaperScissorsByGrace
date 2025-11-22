@@ -154,10 +154,10 @@ h1 {
     .images img { width: 100px; }
 
     .added { font-size: 1.6rem; }
-    .container{margin-top: 10%;}
+    .container{margin-top: 12%;}
     .btn{
-        font-size:15px;}
+        font-size:12px;}
     #sideNote{
-        margin-bottom:15%;}
+        margin-bottom:10%;}
 
 }
