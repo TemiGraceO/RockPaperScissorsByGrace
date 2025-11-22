@@ -146,8 +146,8 @@ h1 {
     
     .images {
         flex-direction: column;
-        gap: 20px;
-        width: 300px;
+        gap: 10px;
+        width: 250px;
         margin: 0 auto;
         align-items: center;
     }
