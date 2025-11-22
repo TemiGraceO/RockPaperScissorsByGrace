@@ -165,4 +165,7 @@ footer {
     .quit button{
         margin-top:-15%;
     }
+    .quit{
+        margin-top:-10%;}
+}
 
