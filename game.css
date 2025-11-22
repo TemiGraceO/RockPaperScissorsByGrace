@@ -155,5 +155,7 @@ h1 {
 
     .added { font-size: 1.6rem; }
     .container{margin-top: 10%;}
+    .btn{
+        font-size:15px;
 
 }
