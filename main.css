@@ -7,6 +7,7 @@
 .title{
     text-align: center;
     width: 100%;
+    margin-top: -3%;
 }
 /* BODY */
 body {
@@ -17,6 +18,9 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+     overflow-x: hidden;
+    max-width: 100%;
+     height: 100%;
 }
 h1 {
     font-size: 3rem;
@@ -36,6 +40,7 @@ h1 {
     padding: 40px 20px;
     flex-wrap: wrap;
     width: 100%;
+    height: calc(100vh - 60px);
 }
 
 /* CHOICES (ROCK, PAPER, SCISSORS) */
@@ -102,7 +107,7 @@ h1 {
     color: blue;
     text-decoration: none;
     position: absolute;
-    margin-top: -3%;
+    margin-top: -8%;
 }
 
 /* FOOTER */
@@ -121,7 +126,7 @@ footer {
 
 /* Tablets */
 @media (max-width: 900px) {
-    h1 { font-size: 2.6rem; }
+    h1 { font-size: 2.1rem; }
     .choice {
         width: 150px;
     }
