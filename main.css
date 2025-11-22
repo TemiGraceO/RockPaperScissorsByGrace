@@ -147,7 +147,7 @@ footer {
 
 /* Mobiles */
 @media (max-width: 600px) {
-    h1 { font-size: 2.1rem; }
+    h1 { font-size: 1.5rem; }
     .choices {
         gap: 20px;
     }
