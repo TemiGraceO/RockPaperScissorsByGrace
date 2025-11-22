@@ -157,7 +157,7 @@ h1 {
         margin: 0 auto;
         align-items: center;
     }
-    .images img { width: 120px; }
+    .images img { width: 100px; }
 
     .added { font-size: 1.6rem; }
     .container{margin-top: 10%;}
