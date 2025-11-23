@@ -150,6 +150,10 @@ button{
 
 /* Mobiles */
 @media (max-width: 600px) {
+    .side{
+        padding-left:4%;
+        padding-right:4%;
+    }
     body{
         overflow: hidden;
     }
