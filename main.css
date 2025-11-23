@@ -21,6 +21,15 @@ h1 {
     text-align: center;
     margin-bottom: 1%;
     margin-top: -1%;
+    animation: float2 1.5s ease-out forwards;
+    transform:translateY(-100%);
+    opacity:0;
+}
+@keyframes float2{
+     to{
+        transform: translateY(0);
+        opacity:1;
+    }
 }
 
 /* GAME LAYOUT */
