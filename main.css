@@ -11,7 +11,7 @@ body {
     background-position: center;
     font-family: Bahnschrift, sans-serif;
     align-items: center;
-    overflow: hidden;
+    overflow: unset;
 }
 h1 {
     font-size: 3rem;
@@ -147,6 +147,9 @@ button{
 
 /* Mobiles */
 @media (max-width: 600px) {
+    body{
+        overflow: hidden;
+    }
     h1 { font-size: 1.5rem; margin-bottom: 3%;}
      .choices img{
         width: 30%;
