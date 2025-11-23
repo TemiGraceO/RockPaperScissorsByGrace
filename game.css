@@ -131,19 +131,7 @@ h1 {
     to { opacity: 1; transform: scale(1); }
 }
 
-#closenote {
-    background-color: orange;
-    padding: 10px 25px;
-    border: none;
-    color: white;
-    border-radius: 8px;
-    cursor: pointer;
-    margin-top: 10px;
-}
 
-#closenote:hover {
-    background-color: rgb(255, 140, 0);
-}
 
 /* RESPONSIVENESS */
 @media (max-width: 900px) {
@@ -176,8 +164,8 @@ h1 {
 }
 }
 @media (max-width: 300px) {
-    #sideNote{
-        margin-top:-5%;
+    .btn{
+        margin-bottom:-5%;
     }
      .images img { width: 50px; }
     h1 { font-size: 1.3rem; }
