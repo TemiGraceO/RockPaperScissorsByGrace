@@ -32,7 +32,17 @@ h1 {
     background: linear-gradient(30deg, white, aqua, blue, violet);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    animation: float2 1.5s ease-out forwards;
+    transform:translateX(-100%);
+    opacity:0;
 }
+@keyframes float2{
+     to{
+        transform: translateX(0);
+        opacity:1;
+    }
+}
+
 
 .images {
     display: flex;
