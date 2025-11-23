@@ -158,6 +158,10 @@ button{
         margin-top: 10%;
         height: 100%;
     }
+    button{
+        padding-left:2%;
+        padding-right:2%;
+    }
 
 }
 @media (max-width: 300px) {
