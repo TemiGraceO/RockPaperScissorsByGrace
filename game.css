@@ -167,7 +167,6 @@ h1 {
     .btn{
         font-size: 10px;
     }
-     .images img { width: 50px; }
+     .images img { width: 40px; }
     h1 { font-size: 1.3rem;}
-    body{padding:3px; overflow:unset;}
 }
