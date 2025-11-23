@@ -47,16 +47,13 @@ h1 {
     align-items: center;
 }
 #choice{
+    transform:translateX(-100%);
     animation: floatl 1.5s ease-out forwards;
     opacity 0;
 }
 @keyframes floatl{
-    0%{
-        left:-100px;
-        opacity:0;
-    }
-    100%{
-        left:0;
+    to{
+        transform: translateX(0);
         opacity:1;
     }
 }
