@@ -159,5 +159,9 @@ h1 {
         font-size:12px;}
     #sideNote{
         margin-bottom:5%;}
-
+}
+@media (max-width: 300px) {
+    #sideNote{
+        margin-top:-5%;
+    }
 }
