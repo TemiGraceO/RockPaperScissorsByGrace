@@ -4,59 +4,47 @@
     padding: 0;
     box-sizing: border-box;
 }
-.title{
-    text-align: center;
-    width: 100%;
-    margin-top: -3%;
-}
 /* BODY */
 body {
     background-image: url('images/bg.jpeg');
     background-size: cover;
     background-position: center;
     font-family: Bahnschrift, sans-serif;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+    align-items: center;
     overflow: hidden;
-    max-width: 100%;
-    height: 100%;
 }
 h1 {
     font-size: 3rem;
-    margin-bottom: 20px;
     background: linear-gradient(30deg, white, aqua, blue, violet);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
+    margin-bottom: 1%;
+    margin-top: -1%;
 }
 
 /* GAME LAYOUT */
 .game-wrapper {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
-    gap: 40px;
-    padding: 40px 20px;
-    flex-wrap: wrap;
-    width: 100%;
-    height: calc(100vh - 60px);
+    padding: 4%;
 }
 
 /* CHOICES (ROCK, PAPER, SCISSORS) */
 .choices {
     display: flex;
-    gap: 30px;
-    align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
-    width: 100%;
 }
 
+.choices img{
+    width: 18%;
+}
 .choice {
-    width: 180px;
     transition: 0.4s ease;
     cursor: pointer;
+    justify-content: center;
+    align-items: center;
 }
 .choice:hover {
     transform: scale(1.25);
@@ -66,10 +54,13 @@ h1 {
 .side {
     background: rgba(10, 10, 120, 0.9);
     color: white;
-    padding: 20px;
     border-radius: 10px;
-    width: 220px;
     text-align: center;
+    margin: auto;
+    width: 30%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-bottom: 2%;
 }
 
 .side ol {
@@ -82,43 +73,32 @@ h1 {
 /* SCORE BOARD */
 .score {
     background: rgba(255, 255, 255, 0.85);
-    padding: 15px 25px;
     border-radius: 10px;
-    margin-top: 20px;
     text-align: left;
-    width: auto;
+    margin: auto;
+    padding: 2%;
 }
 
 .score h3 {
     color: rgb(27, 27, 156);
     font-size: 1.2rem;
-    margin-bottom: 8px;
 }
 
 #result {
     font-size: 1rem;
 }
-.quit button{
-    margin-left: 10%;
-    padding: 1%;
+button{
     background-color: orange;
-    border: none;
-    border-radius: 10%;
-    color: blue;
-    text-decoration: none;
-    position: absolute;
-    margin-top: -8%;
+    border:none;
+    margin: auto;
+    color: white;
+    padding: 3%;
+    border-radius: 5%;
+    margin-bottom: 5%;
 }
 
-/* FOOTER */
-footer {
-    margin-top: auto;
-    background: rgb(27, 27, 156);
-    color: white;
-    text-align: center;
-    padding: 12px 0;
-    font-size: 1rem;
-}
+
+
 
 /* ============================
     RESPONSIVENESS
@@ -127,45 +107,33 @@ footer {
 /* Tablets */
 @media (max-width: 900px) {
     h1 { font-size: 2.1rem; }
-    .choice {
-        width: 150px;
+    .choices{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
     }
-    .side {
-        width: 180px;
-        margin-top:-10%;
-    }
-    .quit button{
-        font-size: 20px;
+    .side{
         padding: 2%;
-        margin-left: 43%;
+        width: 50%;
     }
-    .score{
-        margin-right: -12%;
-        margin-top: -10%;
+    .choices img{
+        width: 20%;
     }
 }
 
 /* Mobiles */
 @media (max-width: 600px) {
-    h1 { font-size: 1.5rem; }
-    .choices {
-        gap: 5px;
+    h1 { font-size: 1.5rem; margin-bottom: 3%;}
+     .choices img{
+        width: 30%;
     }
-    .choice {
-        width: 80px;
+    .game-wrapper {
+        margin-top: 10%;
+        height: 100%;
     }
-    .side {
-        width: 100%;
-        max-width: 320px;
-    }
-    .score {
-        width: 100%;
-        max-width: 300px;
-    }
-    .quit button{
-        margin-top:-15%;
-    }
-    .quit{
-        margin-top:-10%;}
-}
 
+
+
+}
